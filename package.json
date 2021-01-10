@@ -3,19 +3,26 @@
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
+  "version": "1.0.0",
+  "repository": "git@github.com:oscar-marion/codechips-router.git",
+  "author": "Oscar Marion <me@oscarmarion.dev>",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "svelte",
+    "router",
+    "codeships"
+  ],
   "scripts": {
     "build": "rollup -c",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "yarn run build"
   },
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^9.0.0",
+    "page": "^1.11.6",
     "rollup": "^2.0.0",
     "rollup-plugin-svelte": "^6.0.0",
     "svelte": "^3.0.0"
   },
-  "keywords": [
-    "svelte"
-  ],
   "files": [
     "src",
     "dist"
