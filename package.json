@@ -3,7 +3,7 @@
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "git@github.com:oscar-marion/codechips-router.git",
   "author": "Oscar Marion <me@oscarmarion.dev>",
   "license": "GPL-3.0-or-later",
