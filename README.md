@@ -1,4 +1,4 @@
-# codechips-router
+# codechips-svelte-router
 Lightweight Svelte routing solution. Based on this [implementation](https://github.com/codechips/svelte-pagejs) of [page.js](https://github.com/visionmedia/page.js) by codechips.
 
 ## Getting started
